@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    html{
+        background-color: aliceblue;
+    }
+</style>
+<body>
+    <h1>Atividade 03</h1>
+    <hr>
+    <p>
+        Uma empresa de decoração cobra R$ 2.500,00 pelo serviço completo. O cliente
+        pagou uma entrada de R$ 1.000,00. Calcule quanto ainda falta pagar.
+    </p>
+
+    <p id="Resultado"></p>
+
+    <script>
+        // Entradas:
+        let valor = 2500.00
+        let entrada = 1000.00
+
+        // Cálculo:
+        let resultado = valor - entrada;
+
+        // Resultado:
+        document.write("O cliente ainda tem que pagar R$ " + resultado + ",00");
+    </script>
+</body>
+</html>
